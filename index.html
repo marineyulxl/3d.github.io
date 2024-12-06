@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Three.js Model Viewer</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <script type="module" src="/main.js"></script>
+    <div id="loadingDisplay" class="loading-display">Loading: 0%</div>
+    <div id="nameDisplay" class="name-display"></div>
+    <div id="infoPanel" class="info-panel">
+        <button class="close-button" id="closeButton">×</button>
+        <div class="info-content">
+            <img id="infoPanelImage" class="info-image" src="" alt="">
+            <div class="info-text">
+                <h2 id="infoPanelTitle" class="info-title"></h2>
+                <p id="infoPanelDescription" class="info-description"></p>
+            </div>
+        </div>
+    </div>
+    <script src="/until.js"></script>
+</body>
+</html>
